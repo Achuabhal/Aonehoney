@@ -61,9 +61,7 @@ const ProductCard: React.FC<{
         </div>
         <p className="text-amber-800 mb-4 line-clamp-2">{product.description}</p>
         <div className="flex justify-between items-center">
-          <span className={`px-4 py-1 bg-${product.color} bg-opacity-20 text-amber-900 rounded-full text-sm font-medium`}>
-            Premium
-          </span>
+        
           {/* Wrap the button with an anchor tag */}
           <a href={product.bookingLink} onClick={(e) => e.stopPropagation()} className="inline-block"> {/* Added stopPropagation to prevent card click if any */}
             <button
