@@ -5,9 +5,9 @@ import image from "./WhatsApp Image 2025-04-23 at 16.53.49_32f710a3-Photoroom.pn
 const products = [
   {
     id: 1,
-    name: "Wildflower Honey",
+    name: "Small Bottle -500gram",
     price: 180,
-    description: "Our signature wildflower honey is harvested from diverse meadow flowers, creating a rich, complex flavor profile with subtle floral notes.",
+    description: "A naturally sweet honey celebrated for its clarity and authentic taste. It boasts a smooth, syrupy texture with a gentle floral aroma and a mild, pleasing flavor, making it a versatile choice for everyday use.",
     image: {image},
     color: "amber-400",
     benefits: [
@@ -15,13 +15,13 @@ const products = [
       "Supports local ecosystems",
       "Perfect for baking and tea"
     ],
-    bookingLink: "https://wa.me/9961174693?text=₹130  രൂപേടെ  തേൻ ഒണ്ടോ  " // Added booking link
+    bookingLink: "https://wa.me/9961174693?text=₹130  രൂപേടെ  തേൻ ഒണ്ടോ -500gram " // Added booking link
   },
   {
     id: 2,
-    name: "Manuka Honey",
+    name: "Large Bottle -1kg",
     price: 300,
-    description: "Premium Manuka honey known for its exceptional purity and potent health properties. A smooth, creamy texture with distinctive earthy flavors.",
+    description: "A naturally sweet honey celebrated for its clarity and authentic taste. It boasts a smooth, syrupy texture with a gentle floral aroma and a mild, pleasing flavor, making it a versatile choice for everyday use.",
     image:{image},
     color: "amber-600",
     benefits: [
@@ -29,7 +29,7 @@ const products = [
       "Supports digestive health",
       "Excellent for wellness routines"
     ],
-    bookingLink: "https://wa.me/9961174693?text=₹300 രൂപേടെ  തേൻ ഒണ്ടോ  " // Added booking link
+    bookingLink: "https://wa.me/9961174693?text=₹300 രൂപേടെ  തേൻ ഒണ്ടോ -1kg " // Added booking link
   },
   // Add more products as needed, including a bookingLink
 ];
