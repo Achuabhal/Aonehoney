@@ -51,7 +51,7 @@ const About: React.FC = () => {
                 />
               </div>
               
-              <div className="absolute -bottom-6 -right-6 bg-white rounded-xl p-5 shadow-lg max-w-xs animate-float">
+              <div className="absolute -bottom-6 -right-6 bg-white rounded-xl p-5 shadow-lg max-w-xs animate-float  hidden sm:block">
                 <img 
                   src={hello2}
                   alt="Honeycomb detail" 
