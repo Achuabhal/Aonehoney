@@ -1,4 +1,5 @@
 import React from 'react';
+import image from "./WhatsApp Image 2025-04-23 at 16.53.49_32f710a3-Photoroom.png";
 
 // Product Data
 const products = [
@@ -7,7 +8,7 @@ const products = [
     name: "Wildflower Honey",
     price: 180,
     description: "Our signature wildflower honey is harvested from diverse meadow flowers, creating a rich, complex flavor profile with subtle floral notes.",
-    image: "https://images.pexels.com/photos/7474209/pexels-photo-7474209.jpeg",
+    image: {image},
     color: "amber-400",
     benefits: [
       "Rich in antioxidants",
@@ -21,7 +22,7 @@ const products = [
     name: "Manuka Honey",
     price: 300,
     description: "Premium Manuka honey known for its exceptional purity and potent health properties. A smooth, creamy texture with distinctive earthy flavors.",
-    image: "https://images.pexels.com/photos/11131413/pexels-photo-11131413.jpeg",
+    image:{image},
     color: "amber-600",
     benefits: [
       "High antibacterial properties",
@@ -46,9 +47,9 @@ const ProductCard: React.FC<{
     <div
       className={`relative bg-white rounded-2xl overflow-hidden transition-all duration-500 shadow-lg hover:scale-102 cursor-pointer`}
     >
-      <div className="relative overflow-hidden h-64">
+      <div className="relative overflow-hidden" style={{ height: 1000, objectFit: 'cover' }}>  
         <img
-          src={product.image}
+          src={product.image.image}
           alt={product.name}
           className="w-full h-full object-cover transform transition-transform duration-700 hover:scale-110"
         />
