@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Instagram, Facebook, Twitter, Beef as Bee } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, Facebook, Beef as Bee } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -16,15 +16,13 @@ const Footer: React.FC = () => {
               Bringing nature's golden sweetness from our apiaries to your table since 2021.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-amber-200 hover:text-amber-300 transition-colors">
+              <a href="https://www.instagram.com/aone.honey?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="text-amber-200 hover:text-amber-300 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
               <a href="#" className="text-amber-200 hover:text-amber-300 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-amber-200 hover:text-amber-300 transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
+           
             </div>
           </div>
           
@@ -52,7 +50,8 @@ const Footer: React.FC = () => {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-amber-300 mr-3 mt-1" />
                 <span className="text-amber-200">
-                 --
+                 --Abiya Bee Keeping. Eruvatty P.O.
+Chapparapadavu - 670581. Kannur Dt
                 </span>
               </li>
               <li className="flex items-center">

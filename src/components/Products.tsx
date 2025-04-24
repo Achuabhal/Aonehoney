@@ -15,7 +15,7 @@ const products = [
       "Supports local ecosystems",
       "Perfect for baking and tea"
     ],
-    bookingLink: "https://wa.me/9961174693?text=₹130  രൂപേടെ  തേൻ ഒണ്ടോ -500gram " // Added booking link
+    bookingLink: "https://wa.me/9961174693?text=₹180  രൂപേടെ  തേൻ ഒണ്ടോ -500gram " // Added booking link
   },
   {
     id: 2,
