@@ -77,7 +77,7 @@ Aonehoney/
 
 ## 🤝 Contributing
 
-This is a freelancing project. For any queries or contributions, please contact the repository owner.
+This is a freelancing project.
 
 ## 📄 License
 
